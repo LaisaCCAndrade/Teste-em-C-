@@ -1,43 +1,36 @@
-﻿html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-html {
+﻿.header {
+  width: 100%;
+  height: 300px;
+  background-image: url('/content/images/bg2.jpeg');
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+  border-radius: 15px 15px 0 0;
   position: relative;
-  min-height: 100%;
 }
 
-body {
-    margin-bottom: 60px;
+#title {
+  color: #150142;
+  font-size: 50px;
+  font-family: 'Lobster', cursive;
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
 }
 
-.background {
-    position: relative;
-    z-index: 1;
-    height: 100vh;
-}
-    .background::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -1;
-        background-image: url("https://preview.pixlr.com/images/800wm/1176/2/1176106312.jpg");
-        opacity: .1;
-    }
-
-.buttons-column {
-    text-align: end;
+#date {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Titillium web', sans-serif;
 }
 
-.todos-column {
-    vertical-align: middle;
+#form-action {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+#list {
+  width: 90%;
 }

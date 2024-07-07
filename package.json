@@ -1,0 +1,19 @@
+{
+  "name": "c-sharp-academy-mvc-01-todo-vsc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy-icons": "copyfiles -u 1 node_modules/bootstrap-icons/font/* wwwroot/fonts/ && copyfiles -u 1 node_modules/bootstrap-icons/icons/* wwwroot/icons/ && copyfiles -u 1 node_modules/bootstrap-icons/font/bootstrap-icons.css wwwroot/css/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap-icons": "^1.11.3"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.4.1"
+  }
+}

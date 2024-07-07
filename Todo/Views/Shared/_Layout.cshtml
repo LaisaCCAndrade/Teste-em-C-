@@ -7,17 +7,18 @@
     <title>@ViewData["Title"] - Todo</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="~/css/bootstrap-icons.css" />
 </head>
 
 <body>
-
     <div class="background">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-10">
-                    @Html.Partial("_Form")
                     <main role="main" class="pb-3">
                         @RenderBody()
+                        @Html.Partial("_Form")
                     </main>
                 </div>
             </div>
